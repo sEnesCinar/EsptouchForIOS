@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "EspTouchDemo"
+                XCODE_WORKSPACE: "/EspTouchDemo"
                 XCODE_SCHEME: "EspTouchDemo"
             xcode: latest
             cocoapods: default
